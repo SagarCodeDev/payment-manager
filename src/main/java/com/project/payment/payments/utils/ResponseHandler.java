@@ -20,6 +20,10 @@ public class ResponseHandler {
         return generateResponse(response, HttpStatus.OK, null);
     }
 
+    public static  ResponseEntity<Object> create(Object response){
+        return generateResponse(response, HttpStatus.CREATED, null);
+    }
+
     public static ResponseEntity<Object> error(Object response){
         return generateResponse(response, HttpStatus.BAD_REQUEST, null);
     }

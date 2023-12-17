@@ -1,5 +1,5 @@
 package com.project.payment.payments;
 
 public class Constants {
-    public static final String PROFILE_BASE_PATH = "/profile/v1";
+    public static final String PAYMENT_APP_BASE_PATH = "/payment-app/v1";
 }
